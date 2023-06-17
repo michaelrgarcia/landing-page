@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
 }
@@ -30,7 +34,47 @@ ul.header-links {
     list-style: none;
 }
 
-ul.header-links a {
+ul.header-links a { /* Add information subtext class selector later */
     color: #E5E7EB;
     font-size: 18px;
 }
+
+.title {
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+div.hero {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: #1F2937;
+}
+
+.hero-main {
+    border: 2px solid black;
+}
+
+.hero-main .title {
+    font-size: 48px;
+}
+
+.hero-main .subtext {
+    color: #F9FAF8;
+}
+
+.hero-main button { /* Add call to action button class selector later */
+    background-color: #3882F6;
+}
+
+
+.placeholder-img {
+    border: 2px solid black;
+}
+
+
+
