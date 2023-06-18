@@ -43,7 +43,7 @@ button, div.header-text {
 button {
     background-color: #3882F6;
     padding: 6px 20px;
-    border-radius: 15%;
+    border-radius: 5px;
 }
 
 .hero {
@@ -79,12 +79,44 @@ button {
     color: white;
 }
 
-.info-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 50px;
 }
 
-.info {
+.info-header {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 3%;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 100px;
+}
+
+.info-box .info {
     border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 5%;
+}
+
+.info-box .subtext {
+    text-align: center;
+    max-width: 250px;
+    color: rgb(118, 115, 115);
 }
