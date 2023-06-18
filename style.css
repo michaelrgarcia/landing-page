@@ -122,7 +122,14 @@ button {
 
 .quote {
     display: flex;
+    justify-content: center;
+    flex-shrink: 0;
     background-color: #E5E7EB;
+    padding: 150px 400px;
+}
+
+.quote-box {
+    min-width: 400px;
 }
 
 .quote-text {
@@ -132,6 +139,10 @@ button {
 }
 
 .quote-author {
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 1%;
 }
