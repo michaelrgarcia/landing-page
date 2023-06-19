@@ -42,8 +42,8 @@ button, div.header-text {
 }
 
 button {
-    background-color: #3882F6;
-    padding: 6px 25px;
+    background-color: orangered;
+    padding: 6px 30px;
     border-radius: 5px;
 }
 
@@ -52,12 +52,15 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #1F2937;
-    gap: 80px;
+    flex-shrink: 0;
+    background-color: #111418;
+    gap: 100px;
     padding: 100px 0;
 }
 
 .hero-main {
+    display: flex;
+    flex-direction: column;
     flex-basis: 25%;
 }
 
@@ -74,14 +77,12 @@ button {
     margin-top: 2%;
 }
 
-.placeholder-img {
+.hero img {
     display: flex;
     flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 150px;
     background-color: grey;
     color: white;
+    max-width: 500px;
 }
 
 .information {
