@@ -59,14 +59,17 @@ button {
     flex-basis: 25%;
 }
 
-.hero-main .title {
-    font-weight: bolder;
-    font-size: 48px;
+.title {
+    font-weight: bolder;  
     color: #F9FAF8;
 }
 
+.hero-main .title {
+    font-size: 48px;
+}
+
 .hero-main button {
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 .placeholder-img {
@@ -129,7 +132,7 @@ button {
 }
 
 .quote-box {
-    min-width: 400px;
+    min-width: 850px;
 }
 
 .quote-text {
@@ -145,4 +148,6 @@ button {
     font-size: 18px;
     font-weight: bold;
     margin-top: 1%;
-}
+} 
+
+/* Add flex: 1; to all main sections to make them evenly spaced */
