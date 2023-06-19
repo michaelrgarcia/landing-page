@@ -30,7 +30,8 @@ ul.header-links {
 }
 
 .subtext,
-ul.header-links a {
+ul.header-links a,
+.footer {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -185,4 +186,13 @@ button {
 
 .button-section button {
     border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    padding: 30px;
 }
