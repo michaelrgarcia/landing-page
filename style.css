@@ -13,29 +13,20 @@ div.header {
     flex-shrink: 0;
     justify-content: space-around;
     align-items: center;
-    padding: 12px;
+    padding: 12px 12px 0 12px;
     background: #1F2937;
 }
 
 .header .header-text {
     flex-shrink: 0;
     font-size: 24px;
-    border-bottom: 1px solid #F9FAF8;
-}
-
-.header-text img {
-    max-width: 20px;
 }
 
 ul.header-links {
     display: inline-flex;
     flex-shrink: 0;
-    gap: 40px;
+    gap: 15px;
     list-style: none;
-}
-
-ul.header-links a {
-    border-bottom: 1px solid #F9FAF8;
 }
 
 .subtext,
@@ -45,15 +36,14 @@ ul.header-links a,
     font-size: 18px;
 }
 
-
 button, div.header-text {
     color: #F9FAF8;
     font-weight: bold;
 }
 
 button {
-    background-color: orangered;
-    padding: 6px 30px;
+    background-color: #3882F6;
+    padding: 6px 25px;
     border-radius: 5px;
 }
 
@@ -62,15 +52,12 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-shrink: 0;
-    background-color: #111418;
-    gap: 100px;
+    background-color: #1F2937;
+    gap: 80px;
     padding: 100px 0;
 }
 
 .hero-main {
-    display: flex;
-    flex-direction: column;
     flex-basis: 25%;
 }
 
@@ -84,15 +71,17 @@ button {
 }
 
 .hero-main button {
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
-.hero img {
+.placeholder-img {
     display: flex;
     flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
     background-color: grey;
     color: white;
-    max-width: 500px;
 }
 
 .information {
@@ -100,8 +89,7 @@ button {
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 110px;
+    padding: 100px 0;
 }
 
 .info-header {
@@ -141,7 +129,7 @@ button {
     justify-content: center;
     flex-shrink: 0;
     background-color: #E5E7EB;
-    padding: 150px 400px;
+    padding: 100px 400px;
 }
 
 .quote-box {
@@ -162,8 +150,6 @@ button {
     font-weight: bold;
     margin-top: 1%;
 } 
-
-/* Add flex: 1; to all main sections to make them evenly spaced */
 
 .signup {
     display: flex;
