@@ -13,8 +13,8 @@ div.header {
     flex-shrink: 0;
     justify-content: space-around;
     align-items: center;
-    padding: 12px 12px 0 12px;
-    background: #111418;
+    padding: 12px;
+    background: #1F2937;
 }
 
 .header .header-text {
@@ -100,7 +100,8 @@ button {
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 110px;
 }
 
 .info-header {
@@ -140,7 +141,7 @@ button {
     justify-content: center;
     flex-shrink: 0;
     background-color: #E5E7EB;
-    padding: 100px 400px;
+    padding: 150px 400px;
 }
 
 .quote-box {
@@ -161,6 +162,8 @@ button {
     font-weight: bold;
     margin-top: 1%;
 } 
+
+/* Add flex: 1; to all main sections to make them evenly spaced */
 
 .signup {
     display: flex;
